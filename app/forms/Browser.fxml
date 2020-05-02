@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <WebView focusTraversable="true" id="browser" layoutX="8" layoutY="104" prefHeight="544" prefWidth="432"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-browser" url="google.com" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="CheapFox v.-1.6.9" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="browback" layoutX="8" layoutY="56" prefHeight="40" prefWidth="48" styleClass="button " text="&lt;" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-browback" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="browreload" layoutX="64" layoutY="56" prefHeight="40" prefWidth="48" styleClass="button " text="R" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-browreload" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="browforward" layoutX="120" layoutY="56" prefHeight="40" prefWidth="48" styleClass="button " text="&gt;" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-browforward" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="browurl" layoutX="176" layoutY="56" prefColumnCount="12" prefHeight="40" prefWidth="216" promptText="" styleClass="text-input text-field " text="http://google.com">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-browurl" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="browsearch" layoutX="400" layoutY="56" prefHeight="40" prefWidth="40" styleClass="button " text="E" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-browsearch" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

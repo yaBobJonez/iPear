@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="About dis foun" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="56" prefHeight="21" prefWidth="408" styleClass="label " text="Manufacturer: yaBJ Inc." textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="88" prefHeight="30" prefWidth="416" styleClass="label " text="Model: iPear XS" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="120" prefHeight="30" prefWidth="416" styleClass="label " text="OS version: " textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="16" layoutY="152" prefHeight="30" prefWidth="416" styleClass="label " text="Last update:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="16" layoutY="184" prefHeight="30" prefWidth="416" styleClass="label " text="Engine version:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="16" layoutY="216" prefHeight="30" prefWidth="136" styleClass="label " text="Credits:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+        <ListViewEx editable="false" fixedCellSize="-1" focusTraversable="true" id="listView" layoutX="16" layoutY="248" prefHeight="280" prefWidth="416" styleClass="list-view ">
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="[THE DEVELOPER]"/>
+              <String fx:value="ya_Bob_Jonez"/>
+              <String fx:value="aka Michael"/>
+              <String fx:value=""/>
+              <String fx:value="[LANGUAGE]"/>
+              <String fx:value="DevelNext IDE 16.7.0"/>
+              <String fx:value="Made with JPHP :D"/>
+              <String fx:value=""/>
+              <String fx:value="[LIBRARIES]"/>
+              <String fx:value="Windows Bundle by tssaltan"/>
+              <String fx:value="JSON Extension (IDE incl.)"/>
+              <String fx:value="Mailer Bundle (IDE incl.) i.e. SMTP"/>
+            </FXCollections>
+          </items>
+        </ListViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-listView" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="536" prefHeight="30" prefWidth="416" styleClass="label " text="The license:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="16" layoutY="568" prefHeight="30" prefWidth="88" styleClass="label " text="Hosting:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="104" layoutY="568" prefHeight="32" prefWidth="328" styleClass="label " text="https://github.com/yaBobJonez/iPear" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="17"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

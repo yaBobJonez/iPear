@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="edit" layoutX="16" layoutY="64" prefColumnCount="12" prefHeight="64" prefWidth="416" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="40" prefWidth="416" styleClass="label " text="Calculator #1" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="16" layoutY="144" prefHeight="64" prefWidth="72" styleClass="button " text="1" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="104" layoutY="144" prefHeight="64" prefWidth="72" styleClass="button " text="2" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="192" layoutY="144" prefHeight="64" prefWidth="72" styleClass="button " text="3" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="16" layoutY="224" prefHeight="64" prefWidth="72" styleClass="button " text="4" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="104" layoutY="224" prefHeight="64" prefWidth="72" styleClass="button " text="5" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button6" layoutX="192" layoutY="224" prefHeight="64" prefWidth="72" styleClass="button " text="6" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button7" layoutX="16" layoutY="304" prefHeight="64" prefWidth="72" styleClass="button " text="7" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button8" layoutX="104" layoutY="304" prefHeight="64" prefWidth="72" styleClass="button " text="8" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button8" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button9" layoutX="192" layoutY="304" prefHeight="64" prefWidth="72" styleClass="button " text="9" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button9" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button10" layoutX="104" layoutY="384" prefHeight="64" prefWidth="72" styleClass="button " text="0" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button10" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button11" layoutX="280" layoutY="144" prefHeight="64" prefWidth="72" styleClass="button " text="+" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button11" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button12" layoutX="360" layoutY="144" prefHeight="64" prefWidth="72" styleClass="button " text="-" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button12" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button13" layoutX="280" layoutY="224" prefHeight="64" prefWidth="72" styleClass="button " text="x" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button13" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button14" layoutX="360" layoutY="224" prefHeight="64" prefWidth="72" styleClass="button " text="/" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button14" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button15" layoutX="280" layoutY="384" prefHeight="64" prefWidth="152" styleClass="button " text="=" textAlignment="CENTER" textFill="#001a80" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button15" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button16" layoutX="192" layoutY="384" prefHeight="64" prefWidth="72" styleClass="button " text="." textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button16" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button17" layoutX="280" layoutY="304" prefHeight="64" prefWidth="152" styleClass="button " text="sqrt" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button17" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button18" layoutX="16" layoutY="464" prefHeight="64" prefWidth="72" styleClass="button " text="If" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button18" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button19" layoutX="104" layoutY="464" prefHeight="64" prefWidth="72" styleClass="button " text="(" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button19" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button20" layoutX="192" layoutY="464" prefHeight="65" prefWidth="152" styleClass="button " text="==" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button20" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button21" layoutX="360" layoutY="464" prefHeight="64" prefWidth="72" styleClass="button " text=")" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button21" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button22" layoutX="16" layoutY="544" prefHeight="64" prefWidth="72" styleClass="button " text="!" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button22" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button23" layoutX="104" layoutY="544" prefHeight="64" prefWidth="72" styleClass="button " text="&gt;" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button23" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button24" layoutX="192" layoutY="544" prefHeight="64" prefWidth="72" styleClass="button " text="&lt;" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button24" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button25" layoutX="280" layoutY="544" prefHeight="64" prefWidth="72" styleClass="button " text="&amp;&amp;" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="23"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button25" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button26" layoutX="360" layoutY="544" prefHeight="64" prefWidth="72" styleClass="button " text="||" textAlignment="CENTER" textFill="#666666" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="25"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-button26" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button27" layoutX="16" layoutY="384" prefHeight="64" prefWidth="72" styleClass="button " text="C" textAlignment="CENTER" textFill="#b31a1a" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-button27" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="608" prefHeight="40" prefWidth="416" styleClass="label " text="You haven't bought a &quot;Logical Expressions&quot; DLC, have you? Sorry, no logic here then :]" textAlignment="LEFT" textFill="#990000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

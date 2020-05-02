@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Accessibility for disabled" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="accbstartup" layoutX="16" layoutY="64" prefHeight="32" prefWidth="368" styleClass="check-box " text="Start with Windows (to annoy ya)" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="" id="data-accbstartup" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="false" id="edit" layoutX="16" layoutY="112" prefColumnCount="12" prefHeight="32" prefWidth="296" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="accbread" layoutX="320" layoutY="112" prefHeight="32" prefWidth="112" styleClass="button " text="Read me this" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-accbread" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="accbblind" layoutX="16" layoutY="160" prefHeight="30" prefWidth="384" styleClass="check-box " text="Alina Mode (how did you found it?)" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-accbblind" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="accbcaptions" layoutX="16" layoutY="208" prefHeight="24" prefWidth="136" styleClass="check-box " text="Captions" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-accbcaptions" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="256" prefHeight="16" prefWidth="96" styleClass="label " text="Help me..." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <WebView focusTraversable="false" id="browser" layoutX="16" layoutY="296" prefHeight="344" prefWidth="416"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-browser" url="https://google.com" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="128" layoutY="264" prefHeight="17" prefWidth="304" styleClass="label " text="Use [&lt;] to go back, [&gt;] to forward. [^] for the home." textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="56" layoutY="88" prefHeight="17" prefWidth="376" styleClass="label " text="Sorry, temporarily unavailable. Will be fixed in the future." textAlignment="LEFT" textFill="#990000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

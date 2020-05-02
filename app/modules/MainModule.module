@@ -1,0 +1,64 @@
+{
+  "props": [],
+  "components": {
+    "wallchooser": {
+      "type": "script\\FileChooserScript",
+      "x": 176,
+      "y": 80,
+      "props": {
+        "filterName": "Images",
+        "filterExtensions": "*.png, *.jpg, *.jpeg, *.gif, *.bmp",
+        "filterAny": "0",
+        "inputNode": "walledit",
+        "actionNode": "wallbrowse"
+      }
+    },
+    "mailer": {
+      "type": "script\\MailScript",
+      "x": 272,
+      "y": 80,
+      "props": {
+        "hostName": "smtp.gmail.com",
+        "smtpPort": "587",
+        "sslOnConnect": true,
+        "login": "yabjtech1@gmail.com",
+        "password": "45RTfgvb",
+        "timeout": "15000",
+        "mailCharset": "UTF-8",
+        "mailFrom": "yaBJ-Tech@iPear.net"
+      }
+    },
+    "timerAlt": {
+      "type": "script\\TimerScript",
+      "x": 368,
+      "y": 80,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": false
+      }
+    },
+    "debugchooser": {
+      "type": "script\\FileChooserScript",
+      "x": 480,
+      "y": 80,
+      "props": {
+        "filterName": "JPHP",
+        "filterExtensions": "*.php",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": "preset"
+      }
+    },
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 80,
+      "y": 80,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": false
+      }
+    }
+  }
+}

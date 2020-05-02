@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Yeah Screen Settings" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="224" id="image" layoutX="16" layoutY="88" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="152">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="56" prefHeight="30" prefWidth="128" styleClass="label " text="Wallpapers:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="184" layoutY="80" prefHeight="48" prefWidth="248" styleClass="label " text="Press the button or enter the path to select new wallpapers. Use only &quot;/&quot;!" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="wallbrowse" layoutX="184" layoutY="192" prefHeight="32" prefWidth="120" styleClass="button " text="Browse" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-wallbrowse" visible="1"/>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="walledit" layoutX="184" layoutY="152" prefColumnCount="12" prefHeight="32" prefWidth="248" promptText="" styleClass="text-input text-field " text="">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-walledit" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="184" layoutY="128" prefHeight="21" prefWidth="112" styleClass="label " text="Path to image:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="wallset" layoutX="312" layoutY="192" prefHeight="32" prefWidth="120" styleClass="button " text="Set" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-wallset" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="wallreset" layoutX="184" layoutY="280" prefHeight="32" prefWidth="152" styleClass="button " text="Reset to default" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-wallreset" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="184" layoutY="232" prefHeight="48" prefWidth="248" styleClass="label " text="You can also use a relative path. If ya wanna def walls, press below." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="344" layoutY="280" prefHeight="32" prefWidth="88" styleClass="label " text="Powered by MyCoolWallsSelector.gg" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="8"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="16" layoutY="328" prefHeight="16" prefWidth="96" styleClass="label " text="Sleep:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="352" prefHeight="64" prefWidth="416" styleClass="label " text="If you wanna sleep, then just go to bed. But well, anyway, here you can toggle a hotkey for turning off your phone (AD protection™), so gl." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+        <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="sleephot" layoutX="16" layoutY="424" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="61" prefWidth="144" selectedIndex="0" spacing="5" styleClass="" textColor="#000000">
+          <children/>
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="No hotkey"/>
+              <String fx:value="Space"/>
+              <String fx:value="Return (Enter)"/>
+            </FXCollections>
+          </items>
+        </RadioGroupPane>
+        <Data cursor="DEFAULT" enabled="1" id="data-sleephot" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="160" layoutY="424" prefHeight="16" prefWidth="96" styleClass="label " text="Selected:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+        <Separator focusTraversable="false" id="separator" layoutX="136" layoutY="424" orientation="VERTICAL" prefHeight="64" prefWidth="16" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="sleepsel" layoutX="232" layoutY="424" prefHeight="16" prefWidth="96" styleClass="label " text="No hotkey" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-sleepsel" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

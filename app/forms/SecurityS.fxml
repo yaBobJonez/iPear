@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panels" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Security (Not so) Settings" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="secbfind" layoutX="16" layoutY="64" prefHeight="40" prefWidth="136" styleClass="button " text="Find My Device" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-secbfind" visible="1"/>
+        <TextArea editable="true" focusTraversable="true" id="devicelocation" layoutX="160" layoutY="64" prefColumnCount="40" prefHeight="40" prefWidth="272" promptText="" styleClass="text-input text-area " text="" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </TextArea>
+        <Data cursor="DEFAULT" enabled="1" id="data-devicelocation" visible="1"/>
+        <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="nabg" layoutX="16" layoutY="120" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="280" prefWidth="416" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="184" layoutY="88" prefHeight="19" prefWidth="216" styleClass="label " text="Select the encryption algorithm." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="14"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="8" layoutY="8" prefHeight="16" prefWidth="96" styleClass="label " text="Encryption" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="18"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="8" layoutY="40" prefHeight="40" prefWidth="400" styleClass="check-box " text="Automatically encrypt all operations (which is useless LMAO) and files (Don't try MD5, you can't decode it hah) on this device." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="8" layoutY="120" prefHeight="27" prefWidth="160" styleClass="label " text="Unknown sources" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="18"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+            <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkboxAlt" layoutX="8" layoutY="152" prefHeight="40" prefWidth="392" selected="true" styleClass="check-box " text="Allow to install apps from unknown sources (Ah yeah, all apps are unknown on da fon)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </CheckBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-checkboxAlt" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="8" layoutY="200" prefHeight="27" prefWidth="136" styleClass="label " text="Device admins" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="18"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="8" layoutY="232" prefHeight="39" prefWidth="216" styleClass="button " text="Manage administrators" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="18"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+            <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="32" layoutY="88" prefHeight="16" prefWidth="144" promptText="" styleClass="combo-box-base combo-box " value="base_64" visibleRowCount="10">
+              <items xmlns:fx="http://javafx.com/fxml">
+                <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="base_64"/>
+                  <String fx:value="MD5"/>
+                  <String fx:value="BCrypt"/>
+                  <String fx:value="Hash (ARGON2I)"/>
+                  <String fx:value="Taxation"/>
+                </FXCollections>
+              </items>
+            </ComboBox>
+            <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="232" layoutY="232" prefHeight="40" prefWidth="168" styleClass="label " text="Press to open advanced settings." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+              <font>
+                <Font name="System Regular" size="13"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="System Regular" size="12"/>
+          </titleFont>
+        </Panel>
+        <Data cursor="DEFAULT" enabled="" id="data-nabg" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="400" prefHeight="64" prefWidth="416" styleClass="label " text="Hmm... Looks like someone hasn't paid &quot;Security settings fee&quot;... And what about TAXES? Did you pay them?" textAlignment="LEFT" textFill="#990000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="16"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="464" prefHeight="27" prefWidth="160" styleClass="label " text="ShareAllMyData™" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="16" layoutY="488" prefHeight="88" prefWidth="416" styleClass="label " text="This option is your opportunity to send all your data (press &quot;Check&quot; to see what) to the developer (Ah yeah, ME) abso- lutely LEGAL (you grant me the right), so I can (sell it) use it to improve your experience!" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="true">
+          <font>
+            <Font name="System Regular" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="secbdatacheck" layoutX="16" layoutY="584" prefHeight="48" prefWidth="128" styleClass="button " text="Check my data" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-secbdatacheck" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panels" visible="1"/>
+  </children>
+</AnchorPane>

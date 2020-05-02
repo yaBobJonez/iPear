@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="System settings PRO" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="56" prefHeight="30" prefWidth="104" styleClass="label " text="Language:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+        <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="radioGroup" layoutX="16" layoutY="88" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="61" prefWidth="184" selectedIndex="0" spacing="5" styleClass="" textColor="#000000">
+          <children/>
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="English (the United States)"/>
+              <String fx:value="Queuenglish (GB)"/>
+              <String fx:value="Norussianhere (Moscalland)"/>
+            </FXCollections>
+          </items>
+        </RadioGroupPane>
+        <Data cursor="DEFAULT" enabled="1" id="data-radioGroup" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="224" layoutY="56" prefHeight="30" prefWidth="152" styleClass="label " text="Input methods:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="radioGroupAlt" layoutX="224" layoutY="88" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="61" prefWidth="208" selectedIndex="2" spacing="5" styleClass="" textColor="#000000">
+          <children/>
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="Keyboard&amp;Mouse i.e. PC"/>
+              <String fx:value="Ur hands i.e. Touchpad"/>
+              <String fx:value="BEANS! i.e. Furry"/>
+            </FXCollections>
+          </items>
+        </RadioGroupPane>
+        <Data cursor="DEFAULT" enabled="" id="data-radioGroupAlt" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="160" prefHeight="30" prefWidth="224" styleClass="label " text="Measurements system:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+        <RadioGroupPane alignment="TOP_LEFT" focusTraversable="false" id="radioGroup3" layoutX="16" layoutY="192" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" orientation="VERTICAL" prefHeight="61" prefWidth="272" selectedIndex="0" spacing="5" styleClass="" textColor="#000000">
+          <children/>
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+          <items xmlns:fx="http://javafx.com/fxml">
+            <FXCollections fx:factory="observableArrayList">
+              <String fx:value="U.S. (Default) - M/d/yyyy h:m a, $amount"/>
+              <String fx:value="European - dd/MM/yyyy g:m, amount EUR"/>
+              <String fx:value="Asian - yyyy/MM/dd g:m, amountY"/>
+            </FXCollections>
+          </items>
+        </RadioGroupPane>
+        <Data cursor="DEFAULT" enabled="1" id="data-radioGroup3" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="16" layoutY="256" prefHeight="17" prefWidth="328" styleClass="label " text="This option is only available in PREMIUM version for $420.69." textAlignment="LEFT" textFill="#b31a1a" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="16" layoutY="320" prefHeight="21" prefWidth="128" styleClass="label " text="Installed version:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="currversion" layoutX="152" layoutY="320" prefHeight="16" prefWidth="96" styleClass="label " text="N/A" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-currversion" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sysbcheckup" layoutX="16" layoutY="392" prefHeight="32" prefWidth="144" styleClass="button " text="Check for update" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-sysbcheckup" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="344" prefHeight="21" prefWidth="128" styleClass="label " text="Available version:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="remoteversion" layoutX="152" layoutY="344" prefHeight="16" prefWidth="96" styleClass="label " text="N/A" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-remoteversion" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sysbupdate" layoutX="168" layoutY="392" prefHeight="32" prefWidth="144" styleClass="button " text="Update" textAlignment="CENTER" textFill="#1a3399" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="" id="data-sysbupdate" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="isupavail" layoutX="16" layoutY="368" prefHeight="21" prefWidth="192" styleClass="label " text="No updates available." textAlignment="LEFT" textFill="#990000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-isupavail" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="16" layoutY="288" prefHeight="16" prefWidth="96" styleClass="label " text="Updates:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="16" layoutY="440" prefHeight="16" prefWidth="96" styleClass="label " text="Reset:" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="16" layoutY="472" prefHeight="56" prefWidth="416" styleClass="label " text="DANGER! This option will reset all settings of the phone (ya won't lose so much so it's SFW) to the default. If you still wanna do it, then check the option below and press da smol button boi." textAlignment="LEFT" underline="true" wrapText="true">
+          <font>
+            <Font name="System Bold" size="12"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label13" visible="1"/>
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="syscreset" layoutX="16" layoutY="536" prefHeight="24" prefWidth="168" styleClass="check-box " text="I understand, thx" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </CheckBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-syscreset" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sysbreset" layoutX="176" layoutY="536" prefHeight="32" prefWidth="88" styleClass="button " text="Reset" textAlignment="CENTER" textFill="#990000" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-sysbreset" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

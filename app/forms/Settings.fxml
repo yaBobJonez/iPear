@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="0" layoutY="0" prefHeight="656" prefWidth="448" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="536" prefWidth="432" styleClass="">
+          <children>
+            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Very helpful Settings" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="30"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbnetwork" layoutX="16" layoutY="64" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Network" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbnetwork" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#4d66cc" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbapps" layoutX="16" layoutY="112" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Apps" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbapps" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbdisplay" layoutX="16" layoutY="160" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Display" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbdisplay" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#4d66cc" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbsounds" layoutX="16" layoutY="208" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Sounds (C'mon, just Volume Up and Down)" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbsounds" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbsecurity" layoutX="16" layoutY="256" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Security" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbsecurity" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#4d66cc" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="button4" layoutX="16" layoutY="304" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Users &amp; Accounts (only U tho)" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbaccessibility" layoutX="16" layoutY="352" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="Accessibility" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbaccessibility" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbsystem" layoutX="16" layoutY="400" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="System" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbsystem" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbabout" layoutX="16" layoutY="448" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="About (I know all)" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbabout" visible="1"/>
+            <FlatButton alignment="CENTER" clickColor="#b3ccff" color="#1a3399" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#6680e6" id="sbdevs" layoutX="16" layoutY="496" prefHeight="40" prefWidth="416" styleClass="x-flat-button " text="For developers" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </FlatButton>
+            <Data cursor="DEFAULT" enabled="1" id="data-sbdevs" visible="1"/>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
+  </children>
+</AnchorPane>
