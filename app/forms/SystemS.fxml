@@ -3,7 +3,7 @@
   <children>
     <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="System settings PRO" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="System settings PRO" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="30"/>
           </font>
@@ -29,7 +29,7 @@
           </items>
         </RadioGroupPane>
         <Data cursor="DEFAULT" enabled="1" id="data-radioGroup" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="224" layoutY="56" prefHeight="30" prefWidth="152" styleClass="label " text="Input methods:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="224" layoutY="56" prefHeight="30" prefWidth="152" styleClass="label " text="Input methods:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
@@ -49,7 +49,7 @@
           </items>
         </RadioGroupPane>
         <Data cursor="DEFAULT" enabled="" id="data-radioGroupAlt" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="160" prefHeight="30" prefWidth="224" styleClass="label " text="Measurements system:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="160" prefHeight="30" prefWidth="224" styleClass="label " text="Measurements system:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
@@ -75,31 +75,31 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="16" layoutY="320" prefHeight="21" prefWidth="128" styleClass="label " text="Installed version:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="16" layoutY="320" prefHeight="21" prefWidth="128" styleClass="label " text="Installed version:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="currversion" layoutX="152" layoutY="320" prefHeight="16" prefWidth="96" styleClass="label " text="N/A" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="currversion" layoutX="152" layoutY="320" prefHeight="16" prefWidth="96" styleClass="label " text="N/A" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-currversion" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sysbcheckup" layoutX="16" layoutY="392" prefHeight="32" prefWidth="144" styleClass="button " text="Check for update" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sysbcheckup" layoutX="16" layoutY="392" prefHeight="32" prefWidth="144" styleClass="button " text="Check for update" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" id="data-sysbcheckup" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="344" prefHeight="21" prefWidth="128" styleClass="label " text="Available version:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="344" prefHeight="21" prefWidth="128" styleClass="label " text="Available version:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="remoteversion" layoutX="152" layoutY="344" prefHeight="16" prefWidth="96" styleClass="label " text="N/A" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="remoteversion" layoutX="152" layoutY="344" prefHeight="16" prefWidth="96" styleClass="label " text="N/A" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
@@ -117,25 +117,25 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-isupavail" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="16" layoutY="288" prefHeight="16" prefWidth="96" styleClass="label " text="Updates:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="16" layoutY="288" prefHeight="16" prefWidth="96" styleClass="label " text="Updates:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="16" layoutY="440" prefHeight="16" prefWidth="96" styleClass="label " text="Reset:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="16" layoutY="440" prefHeight="16" prefWidth="96" styleClass="label " text="Reset:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="16" layoutY="472" prefHeight="56" prefWidth="416" styleClass="label " text="DANGER! This option will reset all settings of the phone (ya won't lose so much so it's SFW) to the default. If you still wanna do it, then check the option below and press da smol button boi." textAlignment="LEFT" underline="true" wrapText="true">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="16" layoutY="472" prefHeight="56" prefWidth="416" styleClass="label " text="DANGER! This option will reset all settings of the phone (ya won't lose so much so it's SFW) to the default. If you still wanna do it, then check the option below and press da smol button boi." textAlignment="LEFT" textFill="#000000" underline="true" wrapText="true">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label13" visible="1"/>
-        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="syscreset" layoutX="16" layoutY="536" prefHeight="24" prefWidth="168" styleClass="check-box " text="I understand, thx" textAlignment="LEFT" underline="false" wrapText="false">
+        <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="syscreset" layoutX="16" layoutY="536" prefHeight="24" prefWidth="168" styleClass="check-box " text="I understand, thx" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>

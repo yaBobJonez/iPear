@@ -58,8 +58,8 @@
               <String fx:value=""/>
               <String fx:value="[LIBRARIES]"/>
               <String fx:value="Windows Bundle by tssaltan"/>
-              <String fx:value="JSON Extension (IDE incl.)"/>
               <String fx:value="Mailer Bundle (IDE incl.) i.e. SMTP"/>
+              <String fx:value="MaterialUI Extension (IDE incl.)"/>
             </FXCollections>
           </items>
         </ListViewEx>
@@ -82,6 +82,12 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="136" layoutY="536" prefHeight="32" prefWidth="296" styleClass="label " text="DERL DC EY RC SN CY PM IY LY WY v1.0" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="15"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>

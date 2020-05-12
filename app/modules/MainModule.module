@@ -1,16 +1,26 @@
 {
   "props": [],
   "components": {
-    "wallchooser": {
+    "debugchooser": {
       "type": "script\\FileChooserScript",
-      "x": 176,
+      "x": 480,
       "y": 80,
       "props": {
-        "filterName": "Images",
-        "filterExtensions": "*.png, *.jpg, *.jpeg, *.gif, *.bmp",
+        "filterName": "JPHP",
+        "filterExtensions": "*.php",
         "filterAny": "0",
-        "inputNode": "walledit",
-        "actionNode": "wallbrowse"
+        "inputNode": "",
+        "actionNode": "preset"
+      }
+    },
+    "timerAlt": {
+      "type": "script\\TimerScript",
+      "x": 368,
+      "y": 80,
+      "props": {
+        "interval": "1000",
+        "repeatable": "1",
+        "autoStart": false
       }
     },
     "mailer": {
@@ -28,26 +38,16 @@
         "mailFrom": "yaBJ-Tech@iPear.net"
       }
     },
-    "timerAlt": {
-      "type": "script\\TimerScript",
-      "x": 368,
-      "y": 80,
-      "props": {
-        "interval": "1000",
-        "repeatable": "1",
-        "autoStart": false
-      }
-    },
-    "debugchooser": {
+    "wallchooser": {
       "type": "script\\FileChooserScript",
-      "x": 480,
+      "x": 176,
       "y": 80,
       "props": {
-        "filterName": "JPHP",
-        "filterExtensions": "*.php",
+        "filterName": "Images",
+        "filterExtensions": "*.png, *.jpg, *.jpeg, *.gif, *.bmp",
         "filterAny": "0",
-        "inputNode": "",
-        "actionNode": "preset"
+        "inputNode": "walledit",
+        "actionNode": "wallbrowse"
       }
     },
     "timer": {

@@ -27,13 +27,13 @@
         <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
         <Rectangle arcHeight="0" arcWidth="0" fill="#e6e6e6" focusTraversable="false" height="96" id="rectAlt" layoutX="48" layoutY="48" stroke="#666666" strokeType="INSIDE" strokeWidth="2" styleClass="" width="352"/>
         <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lltime" layoutX="64" layoutY="48" prefHeight="72" prefWidth="320" styleClass="label " text="12:59 PM" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lltime" layoutX="64" layoutY="48" prefHeight="72" prefWidth="320" styleClass="label " text="12:59 PM" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="50"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-lltime" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lldate" layoutX="96" layoutY="104" prefHeight="30" prefWidth="256" styleClass="label " text="February 28, 2020" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lldate" layoutX="96" layoutY="104" prefHeight="30" prefWidth="256" styleClass="label " text="February 28, 2020" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>

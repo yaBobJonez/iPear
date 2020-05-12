@@ -57,7 +57,7 @@
               </font>
             </ImageViewEx>
             <Data cursor="DEFAULT" enabled="1" id="data-AICalc" image=".data/img/HornyCalc.png" visible="1"/>
-            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="3" layoutY="56" prefHeight="17" prefWidth="58" styleClass="label " text="Calculator" textAlignment="LEFT" underline="false" wrapText="false">
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="3" layoutY="56" prefHeight="17" prefWidth="58" styleClass="label " text="Calculator" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
               <font>
                 <Font name="System Bold" size="12"/>
               </font>
@@ -77,7 +77,7 @@
               </font>
             </ImageViewEx>
             <Data cursor="DEFAULT" enabled="1" id="data-AIBrowser" image=".data/img/yeahnet.png" visible="1"/>
-            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="5" layoutY="56" prefHeight="17" prefWidth="52" styleClass="label " text="Bro-wser" textAlignment="LEFT" underline="false" wrapText="false">
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="5" layoutY="56" prefHeight="17" prefWidth="52" styleClass="label " text="Bro-wser" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
               <font>
                 <Font name="System Bold" size="12"/>
               </font>
@@ -97,7 +97,7 @@
               </font>
             </ImageViewEx>
             <Data cursor="DEFAULT" enabled="1" id="data-AIPhone" image=".data/img/YeOldePhone.png" visible="1"/>
-            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="10" layoutY="56" prefHeight="17" prefWidth="48" styleClass="label " text="Dialpad" textAlignment="LEFT" underline="false" wrapText="false">
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="10" layoutY="56" prefHeight="17" prefWidth="48" styleClass="label " text="Dialpad" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
               <font>
                 <Font name="System Bold" size="12"/>
               </font>

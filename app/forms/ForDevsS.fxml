@@ -3,13 +3,13 @@
   <children>
     <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="For the Developer i.e. Debug" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="For the Developer i.e. Debug" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="30"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="64" prefHeight="21" prefWidth="416" styleClass="label " text="Runtime Console:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="64" prefHeight="21" prefWidth="416" styleClass="label " text="Runtime Console:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
@@ -21,7 +21,7 @@
           </font>
         </TextArea>
         <Data cursor="DEFAULT" enabled="" id="data-runtime" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="288" prefHeight="21" prefWidth="416" styleClass="label " text="Debug output:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="288" prefHeight="21" prefWidth="416" styleClass="label " text="Debug output:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
@@ -33,7 +33,7 @@
           </font>
         </TextArea>
         <Data cursor="DEFAULT" enabled="1" id="data-output" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="584" prefHeight="16" prefWidth="96" styleClass="label " text="Input:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="584" prefHeight="16" prefWidth="96" styleClass="label " text="Input:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
@@ -45,19 +45,19 @@
           </font>
         </TextField>
         <Data cursor="DEFAULT" enabled="1" id="data-consoleinput" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="evaluate" layoutX="360" layoutY="608" prefHeight="32" prefWidth="72" styleClass="button " text="eval" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="evaluate" layoutX="360" layoutY="608" prefHeight="32" prefWidth="72" styleClass="button " text="eval" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" id="data-evaluate" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="preset" layoutX="288" layoutY="608" prefHeight="24" prefWidth="64" styleClass="button " text="Preset" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="preset" layoutX="288" layoutY="608" prefHeight="24" prefWidth="64" styleClass="button " text="Preset" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" id="data-preset" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="clear" layoutX="376" layoutY="544" prefHeight="32" prefWidth="56" styleClass="button " text="Clear" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="clear" layoutX="376" layoutY="544" prefHeight="32" prefWidth="56" styleClass="button " text="Clear" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>

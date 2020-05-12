@@ -39,5 +39,14 @@ class Browser extends AbstractForm
         $this->browser->engine->load($this->browurl->text);
     }
 
+    /**
+     * @event showing 
+     */
+    function doShowing(UXWindowEvent $e = null)
+    {    
+        $this->browser->engine->userAgent = "Mozilla/5.0 (Android 7.0; Mobile; rv:54.0) Gecko/54.0 Firefox/54.0";
+    }
+
+
 
 }

@@ -1,8 +1,8 @@
 <?php
 namespace app\forms;
 
+use facade\Json;
 use std, gui, framework, app;
-
 
 class SecurityS extends AbstractForm
 {
@@ -12,7 +12,7 @@ class SecurityS extends AbstractForm
      */
     function doSecbfindAction(UXEvent $e = null)
     {    
-        $ipdata = file_get_contents("http://ip-api.com/json/?fields=countryCode,city,query");
+        $ipdata = Json::decode(file_get_contents("http://ip-api.com/json/?fields=countryCode,city,query"));
         $this->devicelocation->text = $ipdata["city"].", ".$ipdata["countryCode"]." @ ".$ipdata["query"];
     }
 
