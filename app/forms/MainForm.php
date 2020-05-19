@@ -20,7 +20,7 @@ class MainForm extends AbstractForm
             $this->form("MainMenu")->free();
             $this->form("WlanInfo")->free();
             $this->form("Off")->showInFragment($this->Screen); $this->powered = 0;
-        } else { 
+        } else {
             $this->form("Off")->free();
             $data = Json::fromFile("data.json");
             if ($data["active"] !== "") { $this->form("Lock")->showInFragment($this->Screen); }
@@ -38,7 +38,7 @@ class MainForm extends AbstractForm
         if ($this->Screen->content == $this->form("WlanInfo")) $val = "WlanInfo";
         elseif ($this->Screen->content == $this->form("Settings")) $val = "Settings";
         elseif ($this->Screen->content == $this->form("DisplayS")) $val = "DisplayS";
-        elseif ($this->Screen->content == $this->form("SecurityS")) $val = "SecurityS";
+        elseif ($this->Screen->content == $this->form("SecurityS")) $val = "SecurityS"; //To Be Refactored (switch - cases)
         elseif ($this->Screen->content == $this->form("SAMD")) $val = "SAMD";
         elseif ($this->Screen->content == $this->form("AccessibilityS")) $val = "AccessibilityS";
         elseif ($this->Screen->content == $this->form("SystemS")) $val = "SystemS";
@@ -47,8 +47,9 @@ class MainForm extends AbstractForm
         elseif ($this->Screen->content == $this->form("Calculator")) $val = "Calculator";
         elseif ($this->Screen->content == $this->form("Browser")) $val = "Browser";
         elseif ($this->Screen->content == $this->form("Phone")) $val = "Phone";
+        elseif ($this->Screen->content == $this->form("Peartify")) $val = "Peartify";
         else $this->toast("Whatcha tryna do, bruh?");
-        $this->form($val)->free(); $this->form("MainMenu")->free();
+        $this->form($val)->free(); $this->form("MainMenu")->free(); //isset check in the future
         $this->form("MainMenu")->showInFragment($this->Screen);
     }
 

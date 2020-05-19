@@ -50,27 +50,35 @@ class AccessibilityS extends AbstractForm
     }
 
     /**
-     * @event browser.keyDown-Left 
+     * @event browser.globalKeyDown-Left 
      */
-    function doBrowserKeyDownLeft(UXKeyEvent $e = null)
+    function doBrowserGlobalKeyDownLeft(UXKeyEvent $e = null)
     {    
         $this->browser->engine->history->goBack();
     }
 
     /**
-     * @event browser.keyDown-Right 
+     * @event browser.globalKeyDown-Right 
      */
-    function doBrowserKeyDownRight(UXKeyEvent $e = null)
+    function doBrowserGlobalKeyDownRight(UXKeyEvent $e = null)
     {    
         $this->browser->engine->history->goForward();
     }
 
     /**
-     * @event browser.keyDown-Up 
+     * @event browser.globalKeyDown-Up 
      */
-    function doBrowserKeyDownUp(UXKeyEvent $e = null)
+    function doBrowserGlobalKeyDownUp(UXKeyEvent $e = null)
     {    
         $this->browser->engine->load("https://google.com");
+    }
+
+    /**
+     * @event showing 
+     */
+    function doShowing(UXWindowEvent $e = null)
+    {    
+        $this->browser->engine->userAgent = "Mozilla/5.0 (Android 7.0; Mobile; rv:54.0) Gecko/54.0 Firefox/54.0";
     }
 
 }

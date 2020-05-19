@@ -128,7 +128,7 @@
             <Font name="System Regular" size="12"/>
           </titleFont>
         </Panel>
-        <Data cursor="DEFAULT" enabled="" id="data-AppPeartify" visible=""/>
+        <Data cursor="DEFAULT" enabled="1" id="data-AppPeartify" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>

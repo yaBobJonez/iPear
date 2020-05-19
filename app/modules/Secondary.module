@@ -1,0 +1,38 @@
+{
+  "props": [],
+  "components": {
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 272,
+      "y": 80,
+      "props": {
+        "interval": "1000",
+        "repeatable": true,
+        "autoStart": false
+      }
+    },
+    "audiochooser": {
+      "type": "script\\FileChooserScript",
+      "x": 176,
+      "y": 80,
+      "props": {
+        "filterName": "Sounds",
+        "filterExtensions": "*.mp3, *.wav, *.aiff, *.aif",
+        "filterAny": "0",
+        "inputNode": "",
+        "actionNode": "openbtn"
+      }
+    },
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 80,
+      "y": 80,
+      "props": {
+        "autoplay": false,
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0"
+      }
+    }
+  }
+}

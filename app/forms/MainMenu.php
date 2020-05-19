@@ -73,5 +73,14 @@ class MainMenu extends AbstractForm
         $this->form("Phone")->showInFragment($this->form("MainForm")->Screen);
         $this->free();
     }
+
+    /**
+     * @event AIPeartify.click-Left 
+     */
+    function doAIPeartifyClickLeft(UXMouseEvent $e = null)
+    {    
+        $this->form("Peartify")->showInFragment($this->form("MainForm")->Screen);
+        $this->free();
+    }
     
 }

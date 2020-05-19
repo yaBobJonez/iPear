@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
   <children>
-    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
-      <children/>
-      <titleFont>
-        <Font name="System Regular" size="12"/>
-      </titleFont>
-    </Panel>
-    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="0" layoutY="0" prefHeight="656" prefWidth="448" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="152" prefWidth="432" styleClass="">
+          <children>
+            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Peartify" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="30"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="48" prefHeight="30" prefWidth="128" styleClass="label " text="Local media" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="20"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="openbtn" layoutX="16" layoutY="80" prefHeight="40" prefWidth="72" styleClass="button " text="Open" textAlignment="CENTER" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="14"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-openbtn" visible="1"/>
+            <Slider blockIncrement="10" focusTraversable="true" id="slider" layoutX="16" layoutY="128" majorTickUnit="25" max="100" min="0" orientation="HORIZONTAL" prefHeight="14" prefWidth="416" showTickLabels="false" showTickMarks="true" snapToTicks="false" styleClass="slider " value="0"/>
+            <Data cursor="DEFAULT" enabled="1" id="data-slider" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="playbtn" layoutX="112" layoutY="80" prefHeight="40" prefWidth="80" styleClass="button " text="PLAY" textAlignment="CENTER" textFill="#336633" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="16"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-playbtn" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="pausebtn" layoutX="200" layoutY="80" prefHeight="40" prefWidth="80" styleClass="button " text="PAUSE" textAlignment="CENTER" textFill="#b3b31a" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="16"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-pausebtn" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="stopbtn" layoutX="288" layoutY="80" prefHeight="40" prefWidth="80" styleClass="button " text="STOP" textAlignment="CENTER" textFill="#cc3333" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="16"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-stopbtn" visible="1"/>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-container" visible="1"/>
   </children>
 </AnchorPane>
