@@ -1,16 +1,6 @@
 {
   "props": [],
   "components": {
-    "timer": {
-      "type": "script\\TimerScript",
-      "x": 272,
-      "y": 80,
-      "props": {
-        "interval": "1000",
-        "repeatable": true,
-        "autoStart": false
-      }
-    },
     "audiochooser": {
       "type": "script\\FileChooserScript",
       "x": 176,
@@ -21,6 +11,16 @@
         "filterAny": "0",
         "inputNode": "",
         "actionNode": "openbtn"
+      }
+    },
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 272,
+      "y": 80,
+      "props": {
+        "interval": "1000",
+        "repeatable": true,
+        "autoStart": false
       }
     },
     "player": {

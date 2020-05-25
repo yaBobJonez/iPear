@@ -60,6 +60,10 @@
               <String fx:value="Windows Bundle by tssaltan"/>
               <String fx:value="Mailer Bundle (IDE incl.) i.e. SMTP"/>
               <String fx:value="MaterialUI Extension (IDE incl.)"/>
+              <String fx:value=""/>
+              <String fx:value="[THIRD-PARTY SERVICES]"/>
+              <String fx:value="Spotify"/>
+              <String fx:value="SoundCloud"/>
             </FXCollections>
           </items>
         </ListViewEx>

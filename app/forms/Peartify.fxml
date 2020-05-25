@@ -3,7 +3,7 @@
   <children>
     <ScrollPane focusTraversable="false" hbarPolicy="AS_NEEDED" hvalue="0" id="container" layoutX="0" layoutY="0" prefHeight="656" prefWidth="448" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
       <content>
-        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="152" prefWidth="432" styleClass="">
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="640" prefWidth="432" styleClass="">
           <children>
             <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Peartify" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
               <font>
@@ -43,6 +43,112 @@
               </font>
             </Button>
             <Data cursor="DEFAULT" enabled="1" id="data-stopbtn" visible="1"/>
+            <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="openurl" layoutX="16" layoutY="232" prefColumnCount="12" prefHeight="32" prefWidth="336" promptText="e.g. track/SoMeTeXt123   OR   Name:My Cool Song" styleClass="text-input text-field " text="">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </TextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-openurl" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="168" prefHeight="16" prefWidth="96" styleClass="label " text="Online" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="20"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="onlopenbtn" layoutX="360" layoutY="232" prefHeight="32" prefWidth="72" styleClass="button " text="Open" textAlignment="CENTER" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-onlopenbtn" visible="1"/>
+            <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="saveurl" layoutX="16" layoutY="288" prefColumnCount="12" prefHeight="32" prefWidth="176" promptText="e.g. track/SoMeTeXt123" styleClass="text-input text-field " text="">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </TextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-saveurl" visible="1"/>
+            <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="savename" layoutX="200" layoutY="288" prefColumnCount="12" prefHeight="32" prefWidth="168" promptText="e.g. My Cool Song" styleClass="text-input text-field " text="">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </TextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-savename" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="onlsavebtn" layoutX="376" layoutY="288" prefHeight="32" prefWidth="56" styleClass="button " text="Save" textAlignment="CENTER" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="14"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-onlsavebtn" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="16" layoutY="272" prefHeight="16" prefWidth="96" styleClass="label " text="URL:" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="200" layoutY="272" prefHeight="16" prefWidth="96" styleClass="label " text="Name:" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="16" layoutY="208" prefHeight="16" prefWidth="96" styleClass="label " text="Via Spotify" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="15"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="16" layoutY="336" prefHeight="21" prefWidth="120" styleClass="label " text="Via SoundCloud" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="15"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+            <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="sc_openurl" layoutX="16" layoutY="360" prefColumnCount="12" prefHeight="32" prefWidth="336" promptText="e.g. Artist/SongName   OR   Name:My Cool Song" styleClass="text-input text-field " text="">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </TextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-sc_openurl" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sc_openbtn" layoutX="360" layoutY="360" prefHeight="32" prefWidth="72" styleClass="button " text="Open" textAlignment="CENTER" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="15"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-sc_openbtn" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="16" layoutY="400" prefHeight="16" prefWidth="96" styleClass="label " text="URL:" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+            <Separator focusTraversable="false" id="separator" layoutX="16" layoutY="200" orientation="HORIZONTAL" prefHeight="8" prefWidth="416" styleClass="separator "/>
+            <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+            <Separator focusTraversable="false" id="separatorAlt" layoutX="16" layoutY="328" orientation="HORIZONTAL" prefHeight="8" prefWidth="416" styleClass="separator "/>
+            <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
+            <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="sc_saveurl" layoutX="16" layoutY="416" prefColumnCount="12" prefHeight="32" prefWidth="176" promptText="e.g. Artist/SongName" styleClass="text-input text-field " text="">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </TextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-sc_saveurl" visible="1"/>
+            <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="200" layoutY="400" prefHeight="16" prefWidth="96" styleClass="label " text="Name:" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </LabelEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+            <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="sc_savename" layoutX="200" layoutY="416" prefColumnCount="12" prefHeight="32" prefWidth="168" promptText="e.g. My Cool Song" styleClass="text-input text-field " text="">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </TextField>
+            <Data cursor="DEFAULT" enabled="1" id="data-sc_savename" visible="1"/>
+            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="sc_savebtn" layoutX="376" layoutY="416" prefHeight="32" prefWidth="56" styleClass="button " text="Save" textAlignment="CENTER" underline="false" wrapText="false">
+              <font>
+                <Font name="System Bold" size="14"/>
+              </font>
+            </Button>
+            <Data cursor="DEFAULT" enabled="1" id="data-sc_savebtn" visible="1"/>
           </children>
         </AnchorPane>
       </content>

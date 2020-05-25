@@ -31,7 +31,10 @@ class SystemS extends AbstractForm
     {    
         $rdata = Json::decode(file_get_contents("https://raw.githubusercontent.com/yaBobJonez/iPear/master/sysconfig.pearjd"));
         $this->remoteversion->text = $rdata["AppVersion"];
-        if (str_replace(".","",$this->remoteversion->text) > str_replace(".","",$this->currversion->text)) {
+        $fremv = str_replace(".","",$this->remoteversion->text);
+        $fcurv = str_replace(".","",$this->currversion->text);
+        if (strpos($fremv, "-") !== false) return "No new: only In-Dev.";
+        if ($fremv > $fcurv) {
             $this->isupavail->text = "New version available!";
             $this->isupavail->textColor = UXColor::of("#336633");
             $this->sysbupdate->enabled = true;
@@ -65,7 +68,17 @@ class SystemS extends AbstractForm
     function doSysbresetAction(UXEvent $e = null)
     {    
         if ($this->syscreset->selected) {
-            file_get_contents("data.json", "{\n\"active\": \"\",\n\"wallpapers\": \"\",\n\"sleep\": \"off\",\n\"samd\": \"\"\n}");
+            file_get_contents("data.json", '{
+              "active": "",
+              "wallpapers": "",
+              "sleep": "off",
+              "samd": "",
+              "peartifySaves": {
+                "spotify": {
+                }, "soundcloud": {
+                }
+              }
+            }');
             $this->form("MainForm")->toast("Successfully reset all to defaults!", 5000);
         } else { $this->form("MainForm")->toast("Please confirm the reset.", 3000); }
     }

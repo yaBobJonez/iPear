@@ -39,5 +39,6 @@ class ForDevsS extends AbstractForm
     {    
         $this->output->text = "";
     }
-
+    
+    function test() { echo "GREAT!"; }
 }

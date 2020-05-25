@@ -75,12 +75,17 @@ class MainForm extends AbstractForm
     function doShow(UXWindowEvent $e = null)
     {    
         if (!file_exists("data.json")) {
-            file_put_contents("data.json", "{
-              \"active\": \"\",
-              \"wallpapers\": \"\",
-              \"sleep\": \"off\",
-              \"samd\": \"\"
-            }");
+            file_put_contents("data.json", '{
+              "active": "",
+              "wallpapers": "",
+              "sleep": "off",
+              "samd": "",
+              "peartifySaves": {
+                "spotify": {
+                }, "soundcloud": {
+                }
+              }
+            }');
         }
     }
 
