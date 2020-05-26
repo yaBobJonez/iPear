@@ -20,7 +20,7 @@
             <Font name="System Regular" size="12"/>
           </font>
         </TextArea>
-        <Data cursor="DEFAULT" enabled="" id="data-runtime" visible="1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-runtime" visible="1"/>
         <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="288" prefHeight="21" prefWidth="416" styleClass="label " text="Debug output:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
@@ -45,13 +45,13 @@
           </font>
         </TextField>
         <Data cursor="DEFAULT" enabled="1" id="data-consoleinput" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="evaluate" layoutX="360" layoutY="608" prefHeight="32" prefWidth="72" styleClass="button " text="eval" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="evaluate" layoutX="360" layoutY="608" prefHeight="32" prefWidth="72" styleClass="button " text="Eval" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" id="data-evaluate" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="preset" layoutX="288" layoutY="608" prefHeight="24" prefWidth="64" styleClass="button " text="Preset" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="preset" layoutX="288" layoutY="608" prefHeight="32" prefWidth="64" styleClass="button " text="Preset" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>

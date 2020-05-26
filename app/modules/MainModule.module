@@ -1,31 +1,16 @@
 {
   "props": [],
   "components": {
-    "wallchooser": {
+    "debugchooser": {
       "type": "script\\FileChooserScript",
-      "x": 176,
+      "x": 480,
       "y": 80,
       "props": {
-        "filterName": "Images",
-        "filterExtensions": "*.png, *.jpg, *.jpeg, *.gif, *.bmp",
+        "filterName": "JPHP",
+        "filterExtensions": "*.php",
         "filterAny": "0",
-        "inputNode": "walledit",
-        "actionNode": "wallbrowse"
-      }
-    },
-    "mailer": {
-      "type": "script\\MailScript",
-      "x": 272,
-      "y": 80,
-      "props": {
-        "hostName": "smtp.gmail.com",
-        "smtpPort": "587",
-        "sslOnConnect": true,
-        "login": "INSERT_EMAIL_HERE",
-        "password": "INSERT_THE_PASSWORD_HERE",
-        "timeout": "15000",
-        "mailCharset": "UTF-8",
-        "mailFrom": "yaBJ-Tech@iPear.net"
+        "inputNode": "",
+        "actionNode": "preset"
       }
     },
     "timerAlt": {
@@ -38,16 +23,31 @@
         "autoStart": false
       }
     },
-    "debugchooser": {
-      "type": "script\\FileChooserScript",
-      "x": 480,
+    "mailer": {
+      "type": "script\\MailScript",
+      "x": 272,
       "y": 80,
       "props": {
-        "filterName": "JPHP",
-        "filterExtensions": "*.php",
+        "hostName": "smtp.gmail.com",
+        "smtpPort": "587",
+        "sslOnConnect": true,
+        "login": "yabjtech1@gmail.com",
+        "password": "45RTfgvb",
+        "timeout": "15000",
+        "mailCharset": "UTF-8",
+        "mailFrom": "yaBJ-Tech@iPear.net"
+      }
+    },
+    "wallchooser": {
+      "type": "script\\FileChooserScript",
+      "x": 176,
+      "y": 80,
+      "props": {
+        "filterName": "Images",
+        "filterExtensions": "*.png, *.jpg, *.jpeg, *.gif, *.bmp",
         "filterAny": "0",
-        "inputNode": "",
-        "actionNode": "preset"
+        "inputNode": "walledit",
+        "actionNode": "wallbrowse"
       }
     },
     "timer": {
