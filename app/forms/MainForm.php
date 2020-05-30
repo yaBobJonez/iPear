@@ -34,7 +34,6 @@ class MainForm extends AbstractForm
      */
     function doHomeButtonClickLeft(UXMouseEvent $e = null)
     {    
-        $val = "Hmm";
         if ($this->Screen->content == $this->form("WlanInfo")) $val = "WlanInfo";
         elseif ($this->Screen->content == $this->form("Settings")) $val = "Settings";
         elseif ($this->Screen->content == $this->form("DisplayS")) $val = "DisplayS";
@@ -48,8 +47,10 @@ class MainForm extends AbstractForm
         elseif ($this->Screen->content == $this->form("Browser")) $val = "Browser";
         elseif ($this->Screen->content == $this->form("Phone")) $val = "Phone";
         elseif ($this->Screen->content == $this->form("Peartify")) $val = "Peartify";
+        elseif ($this->Screen->content == $this->form("TranslatePear")) $val = "TranslatePear";
         else $this->toast("Whatcha tryna do, bruh?");
-        $this->form($val)->free(); $this->form("MainMenu")->free(); //isset check in the future
+        if (isset($val)) $this->form($val)->free(); 
+        $this->form("MainMenu")->free();
         $this->form("MainMenu")->showInFragment($this->Screen);
     }
 

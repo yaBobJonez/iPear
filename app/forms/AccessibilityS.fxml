@@ -47,7 +47,7 @@
         <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
         <WebView focusTraversable="false" id="browser" layoutX="16" layoutY="296" prefHeight="344" prefWidth="416"/>
         <Data cursor="DEFAULT" enabled="1" id="data-browser" url="https://google.com" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="128" layoutY="264" prefHeight="17" prefWidth="304" styleClass="label " text="Use [&lt;] to go back, [&gt;] to forward. [^] for the home." textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="128" layoutY="264" prefHeight="17" prefWidth="304" styleClass="label " text="Use [&lt;] to go back, [&gt;] to forward. [^] for the home." textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>

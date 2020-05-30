@@ -82,5 +82,14 @@ class MainMenu extends AbstractForm
         $this->form("Peartify")->showInFragment($this->form("MainForm")->Screen);
         $this->free();
     }
+
+    /**
+     * @event AITranslator.click-Left 
+     */
+    function doAITranslatorClickLeft(UXMouseEvent $e = null)
+    {    
+        $this->form("TranslatePear")->showInFragment($this->form("MainForm")->Screen);
+        $this->free();
+    }
     
 }
