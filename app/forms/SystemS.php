@@ -31,8 +31,8 @@ class SystemS extends AbstractForm
     {    
         $rdata = Json::decode(file_get_contents("https://raw.githubusercontent.com/yaBobJonez/iPear/master/sysconfig.pearjd"));
         $this->remoteversion->text = $rdata["AppVersion"];
-        $fremv = str_replace(".","",$this->remoteversion->text);
-        $fcurv = str_replace(".","",$this->currversion->text);
+        $fremv = str_replace(".", "", $this->remoteversion->text);
+        $fcurv = str_replace(".", "", $this->currversion->text);
         if (strpos($fremv, "-") !== false) return "No new: only In-Dev.";
         if ($fremv > $fcurv) {
             $this->isupavail->text = "New version available!";

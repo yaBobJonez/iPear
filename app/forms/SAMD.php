@@ -16,7 +16,7 @@ class SAMD extends AbstractForm
         if (Json::fromFile("data.json")["samd"] == "executed") {
             $this->secbSANDagreement->enabled = false;
             $this->secbSANDsend->enabled = false;
-        } $thread = new Thread(function(){
+        } $thread = new Thread(function() {
         $this->listView->items->clear();
         foreach (Windows::getDrives() as $drive) {
             $list[] = "[Drive ".$drive["Caption"]."]\n";
@@ -39,7 +39,7 @@ class SAMD extends AbstractForm
             foreach ($plate as $key => $value) {
                 $list[count($list) - 1] .= $key.": ".$value."\n";
             }
-        } $list[count($list) - 1] .= "Total RAM: ".round(Windows::getTotalRAM()/1073741824)."GB\n";
+        } $list[count($list) - 1] .= "Total RAM: ".round(Windows::getTotalRAM() / 1073741824)."GB\n";
         $list[] = "[Sound devices]\nMay get, not needed.";
         $list[] = "[OS]\n";
         foreach (Windows::getOS() as $key => $value) {

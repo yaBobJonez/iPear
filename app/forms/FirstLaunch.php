@@ -16,7 +16,7 @@ class FirstLaunch extends AbstractForm
     {    
         $this->lname->text = Windows::getUsers()[0]["Domain"]."?";
         $this->lcpu->text = Windows::getCpuProduct();
-        $this->lram->text = round(Windows::getTotalRAM()/1073741824)."GB.";
+        $this->lram->text = round(Windows::getTotalRAM() / 1073741824)."GB.";
         $this->lgpu->text = Windows::getVideoProduct();
         $this->idesk->image = Windows::getWallpaper();
     }

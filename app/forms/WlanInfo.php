@@ -40,8 +40,7 @@ class WlanInfo extends AbstractForm
         $sel = $this->networks->selectedItem;
         $pass = $this->password->text;
         $res = Wlan::getMainInterface()->connect($sel["SSID"], $pass);
-        if ($res) { $this->doShow(); $this->form("MainForm")->toast("Connected successfully!", 5000); }
-        else { $this->form("MainForm")->toast("Couldn't connect to the network! Try again.", 5000); }
+        if ($res) { $this->doShow(); $this->form("MainForm")->toast("Connected successfully!", 5000); } else { $this->form("MainForm")->toast("Couldn't connect to the network! Try again.", 5000); }
     }
 
     /**

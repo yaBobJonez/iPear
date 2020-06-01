@@ -49,10 +49,10 @@ class ForDevsS extends AbstractForm
         if (isset($data["forDevIncl"])) $this->included = $data["forDevIncl"];
     }
 
-    function SYS_include($class){
+    function SYS_include($class) {
         if (in_array($class, $this->included) == false) { $this->included[] = $class; return "Included $class successfully."; }
         else { return "$class already included."; }
-    } function SYS_exclude($class){ //Fix it
+    } function SYS_exclude($class) { //Fix it
         if (in_array($class, $this->included)) {
             foreach ($this->included as $key => $value) { if ($value == $class) unset($this->included[$key]); }
             return "Removed $class from included."; 
