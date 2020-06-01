@@ -8,7 +8,7 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/yabobjonez/ipear/total)
 
 ### About, or "The new phone of the future!"
-iPear XS is the brand new cell phone *simulator* with a lot of features for Windows. It allows you to control your Wi-Fi settings on your PC, call real phone numbers, calculate big digits, browse the internet, listen to music, ~~message your friends~~, translate some text and so much more! It's designed to be funny and serious, boring and interesting, ~~it can even be customized whatever you want it to look like~~... Well, it has also features of ~~adding your own applications~~ and sharing all your data with the developer (In Security Settings, yeah) >:D I hope you have a nice day :D and now you can proceed to read the next section.
+iPear XS is the brand new cell phone *simulator* with a lot of features for Windows. It allows you to control your Wi-Fi settings on your PC, call real phone numbers, calculate big digits, browse the internet, listen to music, message your friends, translate some text and so much more! It's designed to be funny and serious, boring and interesting, ~~it can even be customized whatever you want it to look like~~... Well, it has also features of ~~adding your own applications~~ and sharing all your data with the developer (In Security Settings, yeah) >:D I hope you have a nice day :D and now you can proceed to read the next section.
 
 ### Features
 There are not so many features right now, but anyway, here's the short list of what is currently available:
@@ -27,6 +27,7 @@ There are not so many features right now, but anyway, here's the short list of w
 - Phone dialpad i.e. calls via 3rd-party apps
 - Peartify the music app (local media; via Spotify, SoundCloud)
 - Translator (15 languages + bonus: Furryish language)
+- Chattenger — All your social networks and messenger apps in one place
 
 ### Installation
 Three simple steps, as easy as possible :D But *make sure you have the **latest Java installed** on your PC*.
@@ -41,7 +42,8 @@ Three simple steps, as easy as possible :D But *make sure you have the **latest 
 
 ## Downloads
 Download the latest version below.
-- [*AlPHA 0.7.1*](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.1-alpha)
+- [*AlPHA 0.7.2*](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.2-alpha)
+- [AlPHA 0.7.1](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.1-alpha)
 - [AlPHA 0.7.0](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.0-alpha)
 - [AlPHA 0.6.15](https://github.com/yaBobJonez/iPear/releases/tag/v0.6.15-alpha)
 - [ALPHA 0.6.14](https://github.com/yaBobJonez/iPear/releases/tag/v0.6.14-alpha)

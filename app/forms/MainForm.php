@@ -48,8 +48,9 @@ class MainForm extends AbstractForm
         elseif ($this->Screen->content == $this->form("Phone")) $val = "Phone";
         elseif ($this->Screen->content == $this->form("Peartify")) $val = "Peartify";
         elseif ($this->Screen->content == $this->form("TranslatePear")) $val = "TranslatePear";
+        elseif ($this->Screen->content == $this->form("Chattenger")) $val = "Chattenger";
         else $this->toast("Whatcha tryna do, bruh?");
-        if (isset($val)) $this->form($val)->free(); 
+        if (isset($val)) $this->form($val)->free();
         $this->form("MainMenu")->free();
         $this->form("MainMenu")->showInFragment($this->Screen);
     }

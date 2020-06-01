@@ -9,38 +9,78 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
-        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="chatroom" layoutX="16" layoutY="72" prefColumnCount="12" prefHeight="32" prefWidth="184" promptText="Max. 24 symbols" styleClass="text-input text-field " text="">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="fbmessenger" layoutX="16" layoutY="64" prefHeight="48" prefWidth="200" styleClass="button " text="FB Messenger" textAlignment="CENTER" underline="false" wrapText="false">
           <font>
-            <Font name="System Bold" size="12"/>
+            <Font name="System Bold" size="20"/>
           </font>
-        </TextField>
-        <Data cursor="DEFAULT" enabled="1" id="data-chatroom" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="56" prefHeight="16" prefWidth="96" styleClass="label " text="Chatroom:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-fbmessenger" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="twitter" layoutX="232" layoutY="64" prefHeight="48" prefWidth="200" styleClass="button " text="Twitter" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-twitter" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="reddit" layoutX="232" layoutY="232" prefHeight="48" prefWidth="200" styleClass="button " text="Reddit" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-reddit" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="fb" layoutX="232" layoutY="120" prefHeight="48" prefWidth="200" styleClass="button " text="Facebook" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-fb" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="discord" layoutX="16" layoutY="176" prefHeight="48" prefWidth="200" styleClass="button " text="Discord" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-discord" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="twitch" layoutX="232" layoutY="176" prefHeight="48" prefWidth="200" styleClass="button " text="Twitch" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-twitch" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="telegram" layoutX="16" layoutY="232" prefHeight="48" prefWidth="200" styleClass="button " text="Telegram Web" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-telegram" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="instagram" layoutX="16" layoutY="120" prefHeight="48" prefWidth="200" styleClass="button " text="Instagram" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-instagram" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="vk" layoutX="16" layoutY="288" prefHeight="48" prefWidth="200" styleClass="button " text="VKontakte" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-vk" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="gmail" layoutX="232" layoutY="288" prefHeight="48" prefWidth="200" styleClass="button " text="Google Mail" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-gmail" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="608" prefHeight="40" prefWidth="416" styleClass="label " text="Don't see your messaging app here? Is it available on web? If yes, you can submit it but clicking this link:" textAlignment="LEFT" textFill="#001a80" underline="false" wrapText="true">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="joinbtn" layoutX="208" layoutY="72" prefHeight="32" prefWidth="88" styleClass="button " text="Join" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+        <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="link" layoutX="192" layoutY="624" prefHeight="24" prefWidth="144" styleClass="hyperlink " text="CLICK ME TO SUBMIT." textAlignment="LEFT" wrapText="false">
           <font>
-            <Font name="System Bold" size="15"/>
+            <Font name="System Bold" size="12"/>
           </font>
-        </Button>
-        <Data cursor="DEFAULT" enabled="1" id="data-joinbtn" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="headtocentral" layoutX="304" layoutY="72" prefHeight="32" prefWidth="128" styleClass="button " text="iPear Central Chat" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
-          <font>
-            <Font name="System Bold" size="13"/>
-          </font>
-        </Button>
-        <Data cursor="DEFAULT" enabled="1" id="data-headtocentral" visible="1"/>
-        <WebView focusTraversable="true" id="browser" layoutX="16" layoutY="120" prefHeight="496" prefWidth="416"/>
-        <Data cursor="DEFAULT" enabled="1" id="data-browser" url="https://tlk.io/iPear-Central" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="624" prefHeight="24" prefWidth="416" styleClass="label " text="Powered with tlk.io for free lol, idk if they require me to write this text here..." textAlignment="LEFT" textFill="#808080" underline="false" wrapText="false">
-          <font>
-            <Font name="System Regular" size="12"/>
-          </font>
-        </LabelEx>
-        <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+        </Hyperlink>
+        <Data cursor="DEFAULT" enabled="1" id="data-link" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
