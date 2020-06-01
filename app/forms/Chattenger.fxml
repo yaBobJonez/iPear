@@ -3,7 +3,7 @@
   <children>
     <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Chattenger (#StayHome)" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="16" layoutY="8" prefHeight="45" prefWidth="416" styleClass="label " text="Chattenger (#StayHome)" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="30"/>
           </font>
@@ -15,19 +15,19 @@
           </font>
         </TextField>
         <Data cursor="DEFAULT" enabled="1" id="data-chatroom" visible="1"/>
-        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="56" prefHeight="16" prefWidth="96" styleClass="label " text="Chatroom:" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="56" prefHeight="16" prefWidth="96" styleClass="label " text="Chatroom:" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="12"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="joinbtn" layoutX="208" layoutY="72" prefHeight="32" prefWidth="88" styleClass="button " text="Join" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="joinbtn" layoutX="208" layoutY="72" prefHeight="32" prefWidth="88" styleClass="button " text="Join" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="15"/>
           </font>
         </Button>
         <Data cursor="DEFAULT" enabled="1" id="data-joinbtn" visible="1"/>
-        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="headtocentral" layoutX="304" layoutY="72" prefHeight="32" prefWidth="128" styleClass="button " text="iPear Central Chat" textAlignment="CENTER" underline="false" wrapText="false">
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="headtocentral" layoutX="304" layoutY="72" prefHeight="32" prefWidth="128" styleClass="button " text="iPear Central Chat" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="13"/>
           </font>
