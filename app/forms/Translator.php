@@ -29,7 +29,7 @@ class Translator extends AbstractForm
         }
     }
     
-    function validateLang($field){
+    function validateLang($field) {
         if ($field->value !== "Select language") {
             switch ($field->value) {
                 case "English": $tlang = "en"; break;
@@ -51,7 +51,7 @@ class Translator extends AbstractForm
                 default: $tlang = 0;
             } return $tlang;
         } else return 0;
-    } function translate($text, $from = 0, $to = 0){
+    } function translate($text, $from = 0, $to = 0) {
         $link = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20191008T170847Z.f5f668f854939e20.48d2b9918d5a665eb00484025
         e114bfabd45b3f7&text=".urlencode($text->text)."&lang=";
         if ($from !== 0) $link .= $from; else $link .= $this->from;
@@ -59,7 +59,7 @@ class Translator extends AbstractForm
         if ($to !== 0) $link .= $to; else $link .= $this->to;
         $request = file_get_contents($link);
         return $request["text"][0];
-    } function translateFurryish($switch, $text){
+    } function translateFurryish($switch, $text) {
         //TODO
     }
 }

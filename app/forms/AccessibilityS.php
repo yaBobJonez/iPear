@@ -26,8 +26,7 @@ class AccessibilityS extends AbstractForm
      */
     function doAccbblindClickLeft(UXMouseEvent $e = null)
     {    
-        if ($this->accbblind->selected) { $this->panel->backgroundColor = UXColor::of("#000000"); }
-        else { $this->panel->backgroundColor = UXColor::of("#FFFFFF"); }
+        if ($this->accbblind->selected) { $this->panel->backgroundColor = UXColor::of("#000000"); } else { $this->panel->backgroundColor = UXColor::of("#FFFFFF"); }
     }
 
     /**

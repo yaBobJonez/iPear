@@ -38,8 +38,8 @@ class DisplayS extends AbstractForm
             $this->image->image = new UXImage($data["wallpapers"]);
         } else { $this->image->image = new UXImage("res://.data/img/OhPapers.png"); }
         if ($data["sleep"] == "off") {}
-        elseif ($data["sleep"] == "space") {$this->sleephot->selectedIndex = 1; $this->sleepsel->text = $this->sleephot->selected;}
-        elseif ($data["sleep"] == "enter") {$this->sleephot->selectedIndex = 2; $this->sleepsel->text = $this->sleephot->selected;}
+        elseif ($data["sleep"] == "space") {$this->sleephot->selectedIndex = 1; $this->sleepsel->text = $this->sleephot->selected; }
+        elseif ($data["sleep"] == "enter") {$this->sleephot->selectedIndex = 2; $this->sleepsel->text = $this->sleephot->selected; }
     }
 
     /**
