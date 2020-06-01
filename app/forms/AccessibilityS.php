@@ -34,7 +34,9 @@ class AccessibilityS extends AbstractForm
      */
     function doAccbcaptionsClickLeft(UXMouseEvent $e = null)
     {    
-        if ($this->accbcaptions->selected) $this->form("MainForm")->toast("There are no sounds, do you really need it?", "5000");
+        if ($this->accbcaptions->selected) {
+            $this->form("MainForm")->toast("There are no sounds, do you really need it?", "5000");
+        }
     }
 
 

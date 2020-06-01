@@ -30,7 +30,7 @@ class TranslatePear extends AbstractForm
         }
     }
     
-    function validateLang($field){
+    function validateLang($field) {
         if ($field !== "Select language") {
             switch ($field) {
                 case "English": $tlang = "en"; break;
@@ -52,14 +52,14 @@ class TranslatePear extends AbstractForm
                 default: $tlang = 0;
             } return $tlang;
         } else return 0;
-    } function translateOK($text, $from = 0, $to = 0){
+    } function translateOK($text, $from = 0, $to = 0) {
         $link = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20191008T170847Z.f5f668f854939e20.48d2b9918d5a665eb00484025e114bfabd45b3f7&text=".urlencode($text)."&lang=";
         if ($from !== 0) { $link .= $from; } else { $link .= $this->from; }
         $link .= "-";
         if ($to !== 0) { $link .= $to; } else { $link .= $this->to; }
         $request = Stream::getContents($link);
         return Json::decode($request)["text"][0];
-    } function translateFurryish($switch = 0, $text){
+    } function translateFurryish($switch = 0, $text) {
         $translations = Json::fromFile("res://.data/furryish.json");
         if ($switch == 1) $translations = array_flip($translations);
         foreach ($translations as $key => $value) {
