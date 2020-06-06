@@ -1,6 +1,7 @@
 <?php
 namespace app\forms;
 
+use windows;
 use facade\Json;
 use std, gui, framework, app;
 
@@ -49,6 +50,7 @@ class MainForm extends AbstractForm
         elseif ($this->Screen->content == $this->form("Peartify")) $val = "Peartify";
         elseif ($this->Screen->content == $this->form("TranslatePear")) $val = "TranslatePear";
         elseif ($this->Screen->content == $this->form("Chattenger")) $val = "Chattenger";
+        elseif ($this->Screen->content == $this->form("PearMaps")) $val = "PearMaps";
         else $this->toast("Whatcha tryna do, bruh?");
         if (isset($val)) $this->form($val)->free();
         $this->form("MainMenu")->free();
@@ -89,6 +91,22 @@ class MainForm extends AbstractForm
               }
             }');
         }
+    }
+
+    /**
+     * @event VolumeUp.action 
+     */
+    function doVolumeUpAction(UXEvent $e = null)
+    {    
+        if (Windows::getVolumeLevel() <= 95) Windows::setVolumeLevel(Windows::getVolumeLevel() + 5);
+    }
+
+    /**
+     * @event VolumeDown.action 
+     */
+    function doVolumeDownAction(UXEvent $e = null)
+    {    
+        if (Windows::getVolumeLevel() >= 5) Windows::setVolumeLevel(Windows::getVolumeLevel() - 5);
     }
 
 

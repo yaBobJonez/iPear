@@ -100,5 +100,14 @@ class MainMenu extends AbstractForm
         $this->form("Chattenger")->showInFragment($this->form("MainForm")->Screen);
         $this->free();
     }
+
+    /**
+     * @event AIMaps.click-Left 
+     */
+    function doAIMapsClickLeft(UXMouseEvent $e = null)
+    {    
+        $this->form("PearMaps")->showInFragment($this->form("MainForm")->Screen);
+        $this->free();
+    }
     
 }
