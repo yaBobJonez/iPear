@@ -35,23 +35,9 @@ class MainForm extends AbstractForm
      */
     function doHomeButtonClickLeft(UXMouseEvent $e = null)
     {    
-        if ($this->Screen->content == $this->form("WlanInfo")) $val = "WlanInfo";
-        elseif ($this->Screen->content == $this->form("Settings")) $val = "Settings";
-        elseif ($this->Screen->content == $this->form("DisplayS")) $val = "DisplayS";
-        elseif ($this->Screen->content == $this->form("SecurityS")) $val = "SecurityS"; //To Be Refactored (switch - cases)
-        elseif ($this->Screen->content == $this->form("SAMD")) $val = "SAMD";
-        elseif ($this->Screen->content == $this->form("AccessibilityS")) $val = "AccessibilityS";
-        elseif ($this->Screen->content == $this->form("SystemS")) $val = "SystemS";
-        elseif ($this->Screen->content == $this->form("AboutS")) $val = "AboutS";
-        elseif ($this->Screen->content == $this->form("ForDevsS")) $val = "ForDevsS";
-        elseif ($this->Screen->content == $this->form("Calculator")) $val = "Calculator";
-        elseif ($this->Screen->content == $this->form("Browser")) $val = "Browser";
-        elseif ($this->Screen->content == $this->form("Phone")) $val = "Phone";
-        elseif ($this->Screen->content == $this->form("Peartify")) $val = "Peartify";
-        elseif ($this->Screen->content == $this->form("TranslatePear")) $val = "TranslatePear";
-        elseif ($this->Screen->content == $this->form("Chattenger")) $val = "Chattenger";
-        elseif ($this->Screen->content == $this->form("PearMaps")) $val = "PearMaps";
-        else $this->toast("Whatcha tryna do, bruh?");
+        $val = $this->Screen->content->getName();
+        $exemptions = ["FirstLaunch", "Lock", "MainMenu", "Off"];
+        if (in_array($val, $exemptions)) unset($val);
         if (isset($val)) $this->form($val)->free();
         $this->form("MainMenu")->free();
         $this->form("MainMenu")->showInFragment($this->Screen);
@@ -107,6 +93,27 @@ class MainForm extends AbstractForm
     function doVolumeDownAction(UXEvent $e = null)
     {    
         if (Windows::getVolumeLevel() >= 5) Windows::setVolumeLevel(Windows::getVolumeLevel() - 5);
+    }
+
+    /**
+     * @event BackButton.click-Left 
+     */
+    function doBackButtonClickLeft(UXMouseEvent $e = null)
+    {    
+        $val = $this->Screen->content->getName();
+        switch ($val) {
+            case "AboutS": $prev = "Settings"; break;
+            case "AccessibilityS": $prev = "Settings"; break;
+            case "DisplayS": $prev = "Settings"; break;
+            case "ForDevsS": $prev = "Settings"; break;
+            case "SAMD": $prev = "SecurityS"; break;
+            case "SecurityS": $prev = "Settings"; break;
+            case "SystemS": $prev = "Settings"; break;
+            case "WlanInfo": $prev = "Settings"; break;
+            default: $prev = "MainMenu"; break;
+        } $this->form($val)->free();
+        $this->form($prev)->free();
+        $this->form($prev)->showInFragment($this->Screen);
     }
 
 

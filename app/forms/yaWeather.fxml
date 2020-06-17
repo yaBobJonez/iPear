@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="656" prefWidth="448" styleClass="">
+  <children>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="656" prefWidth="448" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="16" layoutY="16" prefColumnCount="12" prefHeight="64" prefWidth="416" promptText="Search" style="-fx-font-size: 25; -fx-font-weight: bold;" text="">
+          <styleClass xmlns:fx="http://javafx.com/fxml">
+            <String fx:value="text-input"/>
+            <String fx:value="text-field"/>
+            <String fx:value="yaWcsearch"/>
+          </styleClass>
+          <font>
+            <Font name="Dax-Bold" size="25"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+        <Separator focusTraversable="false" id="separator" layoutX="32" layoutY="56" orientation="HORIZONTAL" prefHeight="8" prefWidth="336" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+        <Button AnchorPane.rightAnchor="15" AnchorPane.topAnchor="15" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="search" layoutX="360" layoutY="16" prefHeight="64" prefWidth="64" styleClass="button yaWcbutton " text="" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/yaWeather/search.png" id="data-search" visible="1"/>
+        <LabelEx AnchorPane.leftAnchor="15" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="temp" layoutX="16" layoutY="264" prefHeight="30" prefWidth="88" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXXX°U" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-temp" visible="1"/>
+        <Separator AnchorPane.leftAnchor="23" AnchorPane.topAnchor="287" focusTraversable="false" id="separatorAlt" layoutX="24" layoutY="288" orientation="HORIZONTAL" prefHeight="8" prefWidth="72" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separatorAlt" visible="1"/>
+        <ImageViewEx AnchorPane.leftAnchor="135" AnchorPane.topAnchor="207" autoSize="false" centered="false" focusTraversable="false" height="56" id="i_pres" layoutX="136" layoutY="208" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-i_pres" image=".data/img/yaWeather/pressure.png" visible="1"/>
+        <LabelEx AnchorPane.leftAnchor="119" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="pressure" layoutX="120" layoutY="264" prefHeight="30" prefWidth="88" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXXX U" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-pressure" visible="1"/>
+        <Separator AnchorPane.leftAnchor="127" AnchorPane.topAnchor="287" focusTraversable="false" id="separator3" layoutX="128" layoutY="288" orientation="HORIZONTAL" prefHeight="8" prefWidth="72" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator3" visible="1"/>
+        <ImageViewEx AnchorPane.leftAnchor="255" AnchorPane.topAnchor="207" autoSize="false" centered="false" focusTraversable="false" height="56" id="i_hum" layoutX="256" layoutY="208" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-i_hum" image=".data/img/yaWeather/humidity.png" visible="1"/>
+        <ImageViewEx AnchorPane.leftAnchor="359" AnchorPane.topAnchor="207" autoSize="false" centered="false" focusTraversable="false" height="56" id="winddirection" layoutX="360" layoutY="208" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-winddirection" image=".data/img/yaWeather/winddir.png" visible="1"/>
+        <LabelEx AnchorPane.leftAnchor="247" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="humidity" layoutX="248" layoutY="264" prefHeight="18" prefWidth="72" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXX %" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-humidity" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="windspeed" layoutX="352" layoutY="264" prefHeight="32" prefWidth="72" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXX U" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Bold" size="20"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-windspeed" visible="1"/>
+        <Separator AnchorPane.leftAnchor="247" AnchorPane.topAnchor="287" focusTraversable="false" id="separator4" layoutX="248" layoutY="288" orientation="HORIZONTAL" prefHeight="8" prefWidth="72" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator4" visible="1"/>
+        <Separator AnchorPane.leftAnchor="351" AnchorPane.topAnchor="287" focusTraversable="false" id="separator5" layoutX="352" layoutY="288" orientation="HORIZONTAL" prefHeight="8" prefWidth="72" styleClass="separator "/>
+        <Data cursor="DEFAULT" enabled="1" id="data-separator5" visible="1"/>
+        <LabelEx AnchorPane.leftAnchor="23" AnchorPane.rightAnchor="23" AnchorPane.topAnchor="159" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="main" layoutX="24" layoutY="160" prefHeight="32" prefWidth="400" style="-fx-font-family: &quot;Dax-Bold&quot;; -fx-font-size: 30; -fx-font-weight: bold;" styleClass="label " text="MAIN WEATHER CONDITION" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="Dax-Bold" size="30"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-main" visible="1"/>
+        <LabelEx AnchorPane.bottomAnchor="71" AnchorPane.leftAnchor="23" AnchorPane.rightAnchor="23" AnchorPane.topAnchor="311" alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="desc" layoutX="24" layoutY="312" prefHeight="272" prefWidth="400" style="-fx-font-size: 18; -fx-font-weight: bold;" styleClass="label " text="Full weather description" textAlignment="LEFT" underline="false" wrapText="true">
+          <font>
+            <Font name="System Bold" size="18"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-desc" visible="1"/>
+        <Button AnchorPane.bottomAnchor="503" AnchorPane.leftAnchor="15" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="prev" layoutX="16" layoutY="88" prefHeight="64" prefWidth="64" styleClass="button yaWcbutton " text="" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/yaWeather/prev.png" id="data-prev" visible="1"/>
+        <Button AnchorPane.bottomAnchor="503" AnchorPane.leftAnchor="359" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="next" layoutX="360" layoutY="88" prefHeight="64" prefWidth="64" styleClass="button yaWcbutton " text="" textAlignment="CENTER" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/yaWeather/next.png" id="data-next" visible="1"/>
+        <LabelEx AnchorPane.bottomAnchor="511" AnchorPane.leftAnchor="72" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="dated" layoutX="73" layoutY="96" prefHeight="48" prefWidth="296" style="-fx-font-size: 24; -fx-font-weight: bold; -fx-text-alignment: center; -fx-text-fill: rgba(112, 112, 112, 1);" styleClass="label " text="XX/XX/XXXX XX:XX AM" textAlignment="CENTER" textFill="#707070" underline="false" wrapText="true">
+          <font>
+            <Font name="System Bold" size="24"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-dated" visible="1"/>
+        <Button AnchorPane.bottomAnchor="15" AnchorPane.rightAnchor="223" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="Imperial" layoutX="176" layoutY="600" prefHeight="40" prefWidth="48" style="-fx-background-color: #3c8558, #52ffb8; -fx-border-color: #3c8558; -fx-border-width: 2; -fx-border-radius: 40;&#10;-fx-font-family: &quot;Dax-Bold&quot;; -fx-font-size: 18; -fx-font-weight: bold;" styleClass="button yaWcbutton " text="°F" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Dax-Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-Imperial" visible="1"/>
+        <Button AnchorPane.bottomAnchor="15" AnchorPane.rightAnchor="271" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="metric" layoutX="128" layoutY="600" prefHeight="40" prefWidth="48" style="-fx-background-color: #3c8558, #52ffb8; -fx-border-color: #3c8558; -fx-border-width: 2; -fx-border-radius: 40;&#10;-fx-font-family: &quot;Dax-Bold&quot;; -fx-font-size: 18; -fx-font-weight: bold;" styleClass="button yaWcbutton " text="°C" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Dax-Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-metric" visible="1"/>
+        <ImageViewEx AnchorPane.leftAnchor="31" AnchorPane.topAnchor="207" autoSize="false" centered="false" focusTraversable="false" height="56" id="i_temp" layoutX="32" layoutY="208" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-i_temp" image=".data/img/yaWeather/temperature.png" visible="1"/>
+        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="232" layoutY="600" prefHeight="40" prefWidth="200" styleClass="label " text="yaWeather v2.2 (iPear adapted) © by ya_Bob_Jonez, 2020; Powered with OpenWeatherMap API" textAlignment="LEFT" textFill="#b3b3b3" underline="false" wrapText="true">
+          <font>
+            <Font name="System Bold" size="8"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="reload" layoutX="16" layoutY="600" prefHeight="40" prefWidth="104" style="-fx-background-color: #3c8558, #52ffb8; -fx-border-color: #3c8558; -fx-border-width: 2; -fx-border-radius: 40;-fx-font-family: &quot;Dax-Bold&quot;; -fx-font-size: 18; -fx-font-weight: bold;" styleClass="button yaWcbutton " text="Refresh" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Dax-Bold" size="18"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-reload" visible="1"/>
+  </children>
+</AnchorPane>

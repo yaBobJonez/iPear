@@ -62,7 +62,7 @@ class Peartify extends AbstractForm
         Malta, Monaco, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Spain, Sweden, Switzerland, Turkey, United Kingdom, Canada, Costa Rica, Dominican Republic, 
         El Salvador, Guatemala, Honduras, Mexico, Nicaragua, Panama, United States, Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay, 
         Australia, New Zealand");
-        if (in_array($country, $available) == false) { $res = new ResourceStream("notavailable.html"); browse($res->toExternalForm()); }
+        if (in_array($country, $available) == false) { $res = new ResourceStream("/.data/notavailable.html"); browse($res->toExternalForm()); }
     }
 
     /**
