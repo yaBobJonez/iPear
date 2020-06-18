@@ -36,7 +36,7 @@
           </font>
         </ImageViewEx>
         <Data cursor="DEFAULT" enabled="1" id="data-i_pres" image=".data/img/yaWeather/pressure.png" visible="1"/>
-        <LabelEx AnchorPane.leftAnchor="119" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="pressure" layoutX="120" layoutY="264" prefHeight="30" prefWidth="88" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXXX U" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx AnchorPane.leftAnchor="104" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="pressure" layoutX="105" layoutY="264" prefHeight="30" prefWidth="120" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXXX U" textAlignment="LEFT" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
@@ -56,13 +56,13 @@
           </font>
         </ImageViewEx>
         <Data cursor="DEFAULT" enabled="1" id="data-winddirection" image=".data/img/yaWeather/winddir.png" visible="1"/>
-        <LabelEx AnchorPane.leftAnchor="247" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="humidity" layoutX="248" layoutY="264" prefHeight="18" prefWidth="72" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXX %" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx AnchorPane.leftAnchor="240" AnchorPane.topAnchor="263" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="humidity" layoutX="241" layoutY="264" prefHeight="30" prefWidth="88" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXX %" textAlignment="LEFT" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-humidity" visible="1"/>
-        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="windspeed" layoutX="352" layoutY="264" prefHeight="32" prefWidth="72" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXX U" textAlignment="LEFT" underline="false" wrapText="false">
+        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="windspeed" layoutX="336" layoutY="264" prefHeight="32" prefWidth="104" style="-fx-font-size: 20; -fx-font-weight: bold;" styleClass="label " text="XXX U" textAlignment="LEFT" underline="false" wrapText="false">
           <font>
             <Font name="System Bold" size="20"/>
           </font>
@@ -126,17 +126,17 @@
           </font>
         </LabelEx>
         <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="refresh" layoutX="16" layoutY="600" prefHeight="39" prefWidth="104" style="-fx-background-color: #3c8558, #52ffb8; -fx-border-color: #3c8558; -fx-border-width: 2; -fx-border-radius: 40;-fx-font-family: &quot;Dax-Bold&quot;; -fx-font-size: 18; -fx-font-weight: bold;" styleClass="button yaWcbutton " text="Refresh" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Dax-Bold" size="18"/>
+          </font>
+        </Button>
+        <Data cursor="DEFAULT" enabled="1" id="data-refresh" visible="1"/>
       </children>
       <titleFont>
         <Font name="System Regular" size="12"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
-    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="reload" layoutX="16" layoutY="600" prefHeight="40" prefWidth="104" style="-fx-background-color: #3c8558, #52ffb8; -fx-border-color: #3c8558; -fx-border-width: 2; -fx-border-radius: 40;-fx-font-family: &quot;Dax-Bold&quot;; -fx-font-size: 18; -fx-font-weight: bold;" styleClass="button yaWcbutton " text="Refresh" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
-      <font>
-        <Font name="Dax-Bold" size="18"/>
-      </font>
-    </Button>
-    <Data cursor="DEFAULT" enabled="1" id="data-reload" visible="1"/>
   </children>
 </AnchorPane>

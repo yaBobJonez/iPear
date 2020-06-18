@@ -74,7 +74,7 @@ class MainForm extends AbstractForm
                 "spotify": {
                 }, "soundcloud": {
                 }
-              }
+              }, "weatherUnits":"Imperial"
             }');
         }
     }

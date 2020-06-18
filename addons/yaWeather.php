@@ -1,6 +1,6 @@
 <?php
-// yaWeather 2.1 library
-// By ya_Bob_Jonez
+namespace addons;
+//OpenWeatherMap API library for yaWeather by ya_Bob_Jonez
 class yaWeather {
     private $appkey;
     public $units;
@@ -59,10 +59,10 @@ class yaWeather {
     public function getRainVolume ($period) { return round($this->data['list'][$period]['rain']['3h'] / $this->n_vol, 2).$this->u_vol; }
     public function getSnowVolume ($period) { return round($this->data['list'][$period]['snow']['3h'] / $this->n_vol, 2).$this->u_vol; }
     public function getClouds ($period) { return $this->data['list'][$period]['clouds']['all']."%"; }
-    public function getUTCSunrise ($period) { return $this->data['city']['sunrise']; }
-    public function getLocalSunrise ($period) { return $this->data['city']['sunrise'] + $this->data['city']['timezone']; }
-    public function getUTCSunset ($period) { return $this->data['city']['sunset']; }
-    public function getLocalSunset ($period) { return $this->data['city']['sunset'] + $this->data['city']['timezone']; }
+    public function getUTCSunrise () { return $this->data['city']['sunrise']; }
+    public function getLocalSunrise () { return $this->data['city']['sunrise'] + $this->data['city']['timezone']; }
+    public function getUTCSunset () { return $this->data['city']['sunset']; }
+    public function getLocalSunset () { return $this->data['city']['sunset'] + $this->data['city']['timezone']; }
     public function isRaining ($period) { if(isset($this->data['list'][$period]['rain']['3h'])) { return true; } else { return false; } }
     public function isSnowing ($period) { if(isset($this->data['list'][$period]['snow']['3h'])) { return true; } else { return false; } }
     public function getCode () { return $this->data['cod']; }

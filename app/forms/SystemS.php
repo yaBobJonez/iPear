@@ -77,7 +77,7 @@ class SystemS extends AbstractForm
                 "spotify": {
                 }, "soundcloud": {
                 }
-              }
+              }, "weatherUnits":"Imperial"
             }');
             $this->form("MainForm")->toast("Successfully reset all to defaults!", 5000);
         } else { $this->form("MainForm")->toast("Please confirm the reset.", 3000); }

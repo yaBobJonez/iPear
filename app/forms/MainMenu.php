@@ -109,5 +109,14 @@ class MainMenu extends AbstractForm
         $this->form("PearMaps")->showInFragment($this->form("MainForm")->Screen);
         $this->free();
     }
+
+    /**
+     * @event AIWeather.click-Left 
+     */
+    function doAIWeatherClickLeft(UXMouseEvent $e = null)
+    {    
+        $this->form("yaWeather")->showInFragment($this->form("MainForm")->Screen);
+        $this->free();
+    }
     
 }

@@ -28,7 +28,8 @@ There are not so many features right now, but anyway, here's the short list of w
 - Peartify the music app (local media; via Spotify, SoundCloud)
 - Translator (15 languages + bonus: Furryish language)
 - Chattenger — All your social networks and messenger apps in one place
-- Pear.Maps
+- Pear.Maps (Waiting for remake!)
+- yaWeather the weather forecast app
 
 ### Installation
 Three simple steps, as easy as possible :D But *make sure you have the **latest Java installed** on your PC*.
@@ -43,7 +44,8 @@ Three simple steps, as easy as possible :D But *make sure you have the **latest 
 
 ## Downloads
 Download the latest version below.
-- [*AlPHA 0.7.2*](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.2-alpha)
+- [*AlPHA 1.0.0*](https://github.com/yaBobJonez/iPear/releases/tag/v1.0.0)
+- [AlPHA 0.7.2](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.2-alpha)
 - [AlPHA 0.7.1](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.1-alpha)
 - [AlPHA 0.7.0](https://github.com/yaBobJonez/iPear/releases/tag/v0.7.0-alpha)
 - [AlPHA 0.6.15](https://github.com/yaBobJonez/iPear/releases/tag/v0.6.15-alpha)
