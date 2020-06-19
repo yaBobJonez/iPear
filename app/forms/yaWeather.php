@@ -15,7 +15,7 @@ class yaWeather extends AbstractForm
     function doShowing(UXWindowEvent $e = null)
     {    
         $location = Json::fromFile("http://ip-api.com/json/?fields=lat,lon");
-        $this->data = new WeatherAPI("INSERT_KEY_HERE"); //OpenWeatherMap API key
+        $this->data = new WeatherAPI("INSERT_API_KEY"); //OpenWeatherMap API key
         $this->data->setUnits(Json::fromFile("data.json")["weatherUnits"]);
         $this->data->getByCoordinates($location['lat'], $location['lon']);
         $this->updateInfo(0);
@@ -36,7 +36,7 @@ class yaWeather extends AbstractForm
         if ($this->data->isSnowing($period)) $desc .= "There is a snowfall of ".$this->data->getSnowVolume($period).". ";
         $desc .= $this->data->getClouds($period)." of sky is covered with clouds. The local sunrise happens to be at ".new Time($this->data->getLocalSunrise($period) * 1000)->toString(
         "hh:mm a")." and sunset occurs at ".new Time($this->data->getLocalSunset($period) * 1000)->toString("hh:mm a").".";
-        $this->desc->text = $desc;
+        $this->desc->text = $desc; $this->time = $period;
     }
     
     /**
@@ -87,6 +87,26 @@ class yaWeather extends AbstractForm
     function doRefreshAction(UXEvent $e = null)
     {    
         $this->updateInfo($this->time);
+    }
+
+    /**
+     * @event search.action 
+     */
+    function doSearchAction(UXEvent $e = null)
+    {    
+        if (substr($this->edit->text, 0, 13) == "Coordinates: ") {
+            $parts = explode(", ", substr($this->edit->text, 0, 13));
+            $this->data->getByCoordinates($parts[0], $parts[1]);
+        } elseif (substr($this->edit->text, 0, 5) == "ZIP: ") {
+            $parts = explode(", ", substr($this->edit->text, 0, 5));
+            $this->data->getByZip($parts[0], $parts[1]);
+        } elseif (substr($this->edit->text, 0, 4) == "ID: ") {
+            $this->data->getByID(substr($this->edit->text, 0, 4));
+        } else {
+            $parts = explode(", ", $this->edit->text);
+            $this->data->getByCity($parts[0], $parts[1]);
+        } if ($this->data->getCode() !== "404") $this->updateInfo(0);
+        else { $this->main->text = "404"; $this->desc->text = "The 'City, Country' you have typed are not found. "; }
     }
 
 }
