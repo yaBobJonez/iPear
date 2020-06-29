@@ -31,8 +31,8 @@
         "hostName": "smtp.gmail.com",
         "smtpPort": "587",
         "sslOnConnect": true,
-        "login": "EMAIL_HERE",
-        "password": "PASSWORD_HERE",
+        "login": "yabjtech1@gmail.com",
+        "password": "45RTfgvb",
         "timeout": "15000",
         "mailCharset": "UTF-8",
         "mailFrom": "yaBJ-Tech@iPear.net"

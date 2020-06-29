@@ -64,6 +64,8 @@
               <String fx:value="[THIRD-PARTY SERVICES]"/>
               <String fx:value="Spotify"/>
               <String fx:value="SoundCloud"/>
+              <String fx:value="OpenStreetMaps"/>
+              <String fx:value="OpenWeatherMap"/>
             </FXCollections>
           </items>
         </ListViewEx>

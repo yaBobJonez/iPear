@@ -15,7 +15,7 @@ class yaWeather extends AbstractForm
     function doShowing(UXWindowEvent $e = null)
     {    
         $location = Json::fromFile("http://ip-api.com/json/?fields=lat,lon");
-        $this->data = new WeatherAPI("INSERT_API_KEY"); //OpenWeatherMap API key
+        $this->data = new WeatherAPI("d2fac4638a8ba00c829e0d9ed8a50f28"); //OpenWeatherMap API key
         $this->data->setUnits(Json::fromFile("data.json")["weatherUnits"]);
         $this->data->getByCoordinates($location['lat'], $location['lon']);
         $this->updateInfo(0);
@@ -95,13 +95,13 @@ class yaWeather extends AbstractForm
     function doSearchAction(UXEvent $e = null)
     {    
         if (substr($this->edit->text, 0, 13) == "Coordinates: ") {
-            $parts = explode(", ", substr($this->edit->text, 0, 13));
+            $parts = explode(", ", substr($this->edit->text, 13));
             $this->data->getByCoordinates($parts[0], $parts[1]);
         } elseif (substr($this->edit->text, 0, 5) == "ZIP: ") {
-            $parts = explode(", ", substr($this->edit->text, 0, 5));
+            $parts = explode(", ", substr($this->edit->text, 5));
             $this->data->getByZip($parts[0], $parts[1]);
         } elseif (substr($this->edit->text, 0, 4) == "ID: ") {
-            $this->data->getByID(substr($this->edit->text, 0, 4));
+            $this->data->getByID(substr($this->edit->text, 4));
         } else {
             $parts = explode(", ", $this->edit->text);
             $this->data->getByCity($parts[0], $parts[1]);
